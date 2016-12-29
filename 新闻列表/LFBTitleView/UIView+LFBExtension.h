@@ -10,4 +10,18 @@
 
 @interface UIView (LFBExtension)
 
+@property (nonatomic,assign) CGFloat LFB_x;
+@property (nonatomic,assign) CGFloat LFB_y;
+@property (nonatomic,assign) CGFloat LFB_width;
+@property (nonatomic,assign) CGFloat LFB_height;
+@property (nonatomic,assign) CGFloat LFB_centerX;
+@property (nonatomic,assign) CGFloat LFB_centerY;
+
+@property (nonatomic,assign) CGSize  LFB_size;
+
+@property (nonatomic,assign) CGFloat LFB_right;
+@property (nonatomic,assign) CGFloat LFB_bottom;
+
++(instancetype)lfb_loadNib;
+
 @end

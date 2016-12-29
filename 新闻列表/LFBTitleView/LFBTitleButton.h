@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface LFBTitleButton : UIButton
+/** 进度 */
+@property (nonatomic,assign) CGFloat progress;
 
 @end

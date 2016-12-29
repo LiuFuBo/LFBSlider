@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface LFBSliderView : UIView
+/** 进度 */
+@property (nonatomic,assign) CGFloat progress;
+/** item宽度 */
+@property (nonatomic,assign) CGFloat itemWidth;
 
 @end

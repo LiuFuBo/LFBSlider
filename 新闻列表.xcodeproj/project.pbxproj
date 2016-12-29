@@ -15,6 +15,12 @@
 		896197971E12411A00277FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896197951E12411A00277FA7 /* LaunchScreen.storyboard */; };
 		896197A21E12411A00277FA7 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 896197A11E12411A00277FA7 /* ____Tests.m */; };
 		896197AD1E12411A00277FA7 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 896197AC1E12411A00277FA7 /* ____UITests.m */; };
+		896197BD1E1242A400277FA7 /* UIView+LFBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 896197BC1E1242A400277FA7 /* UIView+LFBExtension.m */; };
+		89CD1B841E13AE7E0043E9E9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CD1B831E13AE7E0043E9E9 /* FirstViewController.m */; };
+		89FB57821E1358E600FC8EE2 /* LFBSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FB57811E1358E600FC8EE2 /* LFBSliderView.m */; };
+		89FCD9381E135B1A006FBBEF /* LFBTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FCD9371E135B1A006FBBEF /* LFBTitleButton.m */; };
+		89FCD93B1E135C0A006FBBEF /* LFBSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FCD93A1E135C0A006FBBEF /* LFBSliderViewController.m */; };
+		89FCD9411E1366CF006FBBEF /* LFBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FCD9401E1366CF006FBBEF /* LFBScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		896197A81E12411A00277FA7 /* 新闻列表UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新闻列表UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		896197AC1E12411A00277FA7 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		896197AE1E12411A00277FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896197BB1E1242A400277FA7 /* UIView+LFBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LFBExtension.h"; sourceTree = "<group>"; };
+		896197BC1E1242A400277FA7 /* UIView+LFBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LFBExtension.m"; sourceTree = "<group>"; };
+		89CD1B821E13AE7E0043E9E9 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		89CD1B831E13AE7E0043E9E9 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		89FB57801E1358E600FC8EE2 /* LFBSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBSliderView.h; sourceTree = "<group>"; };
+		89FB57811E1358E600FC8EE2 /* LFBSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFBSliderView.m; sourceTree = "<group>"; };
+		89FCD9361E135B1A006FBBEF /* LFBTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBTitleButton.h; sourceTree = "<group>"; };
+		89FCD9371E135B1A006FBBEF /* LFBTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFBTitleButton.m; sourceTree = "<group>"; };
+		89FCD9391E135C0A006FBBEF /* LFBSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBSliderViewController.h; sourceTree = "<group>"; };
+		89FCD93A1E135C0A006FBBEF /* LFBSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFBSliderViewController.m; sourceTree = "<group>"; };
+		89FCD93F1E1366CF006FBBEF /* LFBScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBScrollView.h; sourceTree = "<group>"; };
+		89FCD9401E1366CF006FBBEF /* LFBScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFBScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +123,9 @@
 				8961978B1E12411A00277FA7 /* AppDelegate.m */,
 				8961978D1E12411A00277FA7 /* ViewController.h */,
 				8961978E1E12411A00277FA7 /* ViewController.m */,
+				89CD1B821E13AE7E0043E9E9 /* FirstViewController.h */,
+				89CD1B831E13AE7E0043E9E9 /* FirstViewController.m */,
+				896197BA1E12420500277FA7 /* LFBTitleView */,
 				896197901E12411A00277FA7 /* Main.storyboard */,
 				896197931E12411A00277FA7 /* Assets.xcassets */,
 				896197951E12411A00277FA7 /* LaunchScreen.storyboard */,
@@ -138,6 +159,23 @@
 				896197AE1E12411A00277FA7 /* Info.plist */,
 			);
 			path = "新闻列表UITests";
+			sourceTree = "<group>";
+		};
+		896197BA1E12420500277FA7 /* LFBTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				89FCD9391E135C0A006FBBEF /* LFBSliderViewController.h */,
+				89FCD93A1E135C0A006FBBEF /* LFBSliderViewController.m */,
+				896197BB1E1242A400277FA7 /* UIView+LFBExtension.h */,
+				896197BC1E1242A400277FA7 /* UIView+LFBExtension.m */,
+				89FCD93F1E1366CF006FBBEF /* LFBScrollView.h */,
+				89FCD9401E1366CF006FBBEF /* LFBScrollView.m */,
+				89FCD9361E135B1A006FBBEF /* LFBTitleButton.h */,
+				89FCD9371E135B1A006FBBEF /* LFBTitleButton.m */,
+				89FB57801E1358E600FC8EE2 /* LFBSliderView.h */,
+				89FB57811E1358E600FC8EE2 /* LFBSliderView.m */,
+			);
+			path = LFBTitleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +311,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89FCD9411E1366CF006FBBEF /* LFBScrollView.m in Sources */,
+				89CD1B841E13AE7E0043E9E9 /* FirstViewController.m in Sources */,
+				89FCD93B1E135C0A006FBBEF /* LFBSliderViewController.m in Sources */,
 				8961978F1E12411A00277FA7 /* ViewController.m in Sources */,
+				896197BD1E1242A400277FA7 /* UIView+LFBExtension.m in Sources */,
 				8961978C1E12411A00277FA7 /* AppDelegate.m in Sources */,
+				89FB57821E1358E600FC8EE2 /* LFBSliderView.m in Sources */,
 				896197891E12411A00277FA7 /* main.m in Sources */,
+				89FCD9381E135B1A006FBBEF /* LFBTitleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +549,7 @@
 				896197B31E12411A00277FA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		896197B41E12411A00277FA7 /* Build configuration list for PBXNativeTarget "新闻列表Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +558,7 @@
 				896197B61E12411A00277FA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		896197B71E12411A00277FA7 /* Build configuration list for PBXNativeTarget "新闻列表UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +567,7 @@
 				896197B91E12411A00277FA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
